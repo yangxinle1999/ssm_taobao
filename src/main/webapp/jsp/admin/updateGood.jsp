@@ -51,7 +51,7 @@
     <div class="form-group" align="center">
         <label class="goods_key">商品图片：</label>
         <img style="display: inline-block;" class="img" id="img" src="${good.gImage}">
-        <input id="file" type="file" name="gImage" value="${good.gImage}">
+        <input id="file" type="file" name="gImage" value="${good.gImage}" >
     </div>
     <div class="form-group" align="center">
         <input class="btn-primary btn" type="submit" value="提交">
